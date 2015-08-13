@@ -1,0 +1,67 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+
+\usepackage{CJKutf8}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large x xx}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{1990 北京 }
+ \moveleft.5\hoffset\centerline{中共党员}
+ \moveleft.5\hoffset\centerline{Tel:159xxxxxxx Email: 5xxxxx@qq.com}
+
+
+\begin{resume}
+%\section{目标工作}  A position in the field of computers with special 
+%              interests in business applications programming, 
+%               information processing, and management systems. 
+ 
+
+\section{教育经历} 
+	\begin{tabular}{cccc}
+	{\sl 文科硕士}  &英语笔译专业 &北京科技大学 &2013--2016\\
+	{\sl 文科学士}  &英语专业 &北京科技大学 &2008--2012
+ 	\end{tabular}
+ 
+\section{技能专长} 
+	\begin{tabular}{ll}
+		{\sl 计算机:}&熟练word, excel, PPT等办公室软件\\
+                {\sl 外语:}&英语专业四级, 英语专业八级和全国翻译专业资格水平考试笔译三级\\
+                {\sl 第二外语:}&德语
+         \end{tabular}
+ 
+\section{实习经历} 
+		{\sl 外贸员} \hfill 2012.07--2012.10\\
+                在公司从事外贸销售, 并参加了2013年广州展 \\
+                {\sl 兼职译员} \hfill 2013.09--至今\\
+                为电视台节目做新闻翻译做兼职翻译\\
+                {\sl 志愿者} \hfill        2014.10.16-10.18\\
+                2014年10月，应政府邀请, 跟随学院团队外语组参加2014中国博览会, 主要负责会议翻译和接待外国来宾\\ 
+                {\sl 兼职翻译} \hfill 2014.03--2014.12\\
+                在上海翻译有限公司做兼职翻译\\
+                {\sl 国际部实习生} \hfill 2015.03--2015.05\\
+                公司实习，整理翻译公司文件等\\
+
+\section{获奖情况} 
+	\begin{tabular}{ll}
+		2009年获院级“优秀共青团员”  &2010年荣获院级“优秀学生干部”\\
+		2012年荣获院“优秀毕业生”  &2014年荣获研究生“一等学业奖学金”\\
+	 \end{tabular}\\
+	 2015.03 发表研究生论文杂志
+
+\section{个人爱好}             
+	唱歌，跳舞，跑步，轮滑，排球
+\end{resume}
+\end{document}
+
+
+
+
